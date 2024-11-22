@@ -45,8 +45,8 @@ def get_most_relevant_sentence(query):
 
 # Fonction principale Streamlit
 def main():
-    st.title("Chatbot basé sur un livre")
-    st.write("Posez-moi une question sur le sujet du livre, et je ferai de mon mieux pour répondre !")
+    st.title("Chatbot based on a book")
+    st.write("Ask me a question about the book, and I'll do my best to answer it!")
     
     question = st.text_input("Vous :")
     if st.button("Envoyer"):
